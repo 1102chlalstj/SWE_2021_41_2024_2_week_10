@@ -26,7 +26,7 @@ def sum_of_squares_of_even(even_int_list: List[int]) -> int:
         리스트 내 모든 짝수 숫자의 제곱합.
     """
     # TODO: sum_of_squares_of_even 구현
-    pass
+    return sum(num ** 2 for num in even_int_list)
 
 # 메인 함수
 def main():
