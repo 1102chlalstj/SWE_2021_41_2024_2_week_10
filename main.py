@@ -12,7 +12,7 @@ def even_list(int_list: List[int]) -> List[int]:
         짝수 정수의 리스트.
     """
     # TODO: even_list 구현
-    pass
+    return [num for num in int_list if num % 2 == 0]
 
 # sum_of_squares_of_even의 스켈레톤 코드
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
